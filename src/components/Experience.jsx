@@ -8,8 +8,8 @@ export default function About() {
             2021 — 2022
           </span>
           <div className="">
-            <h2 className="text-2xl leading-loose">
-              Full-stack Developer - Votive Health
+            <h2 className="text-2xl leading-relaxed">
+              Full-stack Developer | Votive Health
             </h2>
             <p>
               Contracted to build a minimum viable product for a palliative care
@@ -26,8 +26,8 @@ export default function About() {
             2024 — Present
           </span>
           <div className="">
-            <h2 className="text-2xl  leading-loose">
-              Ophthalmology Technician - Austin Eye
+            <h2 className="text-2xl  leading-relaxed">
+              Ophthalmology Technician | Austin Eye
             </h2>
             <p>
               Contracted to build a minimum viable product for a palliative care
@@ -43,8 +43,8 @@ export default function About() {
             2023 — 2024
           </span>
           <div className="">
-            <h2 className="text-2xl  leading-loose">
-              Advanced Clinical Associate - Legacy GoHealth
+            <h2 className="text-2xl  leading-relaxed">
+              Advanced Clinical Associate | Legacy GoHealth
             </h2>
             <p>
               Contracted to build a minimum viable product for a palliative care
@@ -60,8 +60,8 @@ export default function About() {
             2022 — 2023
           </span>
           <div className="">
-            <h2 className="text-2xl  leading-loose">
-              Medical Scribe - ScribeAmerica
+            <h2 className="text-2xl  leading-relaxed">
+              Medical Scribe | ScribeAmerica
             </h2>
             <p>
               Contracted to build a minimum viable product for a palliative care
@@ -78,8 +78,8 @@ export default function About() {
             2022 — Present
           </span>
           <div className="">
-            <h2 className="text-2xl  leading-loose">
-              Social Media Manager - NAMI Multnomah
+            <h2 className="text-2xl  leading-relaxed">
+              Social Media Manager | NAMI Multnomah
             </h2>
             <p>
               Managed social media accounts and for a national nonprofit
