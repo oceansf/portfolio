@@ -13,9 +13,15 @@ export default function LeftPanel() {
 
         <nav className="mt-20">
           <ul className="text-slate-400 text-3xl inline-block leading-loose">
-            <li className="hover:font-semibold cursor-pointer">About</li>
-            <li className="hover:font-semibold cursor-pointer">Experience</li>
-            <li className="hover:font-semibold cursor-pointer">Projects</li>
+            <li className="hover:font-semibold cursor-pointer">
+              <a href="#section1">About</a>
+            </li>
+            <li className="hover:font-semibold cursor-pointer">
+              <a href="#section2">Experience</a>
+            </li>
+            <li className="hover:font-semibold cursor-pointer">
+              <a href="#section3">Projects</a>
+            </li>
           </ul>
         </nav>
       </div>
