@@ -1,9 +1,11 @@
 export default function About() {
   return (
     <div className="mt-20" id="section2">
-      <h1 className="text-slate-300 font-medium text-5xl">Experience</h1>
+      <h1 className="text-slate-300 font-medium text-5xl leading-loose">
+        Experience
+      </h1>
       <ul className="text-slate-400">
-        <li className="my-10">
+        <li className="mb-10">
           <span className="text-slate-600 text-base font-bold text-right">
             2021 — 2022
           </span>
@@ -20,8 +22,10 @@ export default function About() {
             </p>
           </div>
         </li>
-        <h2 className="text-slate-300 font-medium text-3xl">Healthcare</h2>
-        <li className="my-10">
+        <h2 className="text-slate-300 font-medium text-3xl leading-loose">
+          Healthcare
+        </h2>
+        <li className="mb-10">
           <span className="text-slate-600 text-base font-bold">
             2024 — Present
           </span>
@@ -38,7 +42,7 @@ export default function About() {
             </p>
           </div>
         </li>
-        <li className="my-10">
+        <li className="mb-10">
           <span className="text-slate-600 text-base font-bold">
             2023 — 2024
           </span>
@@ -55,7 +59,7 @@ export default function About() {
             </p>
           </div>
         </li>
-        <li className="my-10">
+        <li className="mb-10">
           <span className="text-slate-600 text-base font-bold">
             2022 — 2023
           </span>
@@ -72,8 +76,10 @@ export default function About() {
             </p>
           </div>
         </li>
-        <h2 className="text-slate-300 font-medium text-3xl">Volunteer Work</h2>
-        <li className="my-10">
+        <h2 className="text-slate-300 font-medium text-3xl leading-loose">
+          Volunteer Work
+        </h2>
+        <li className="mb-10">
           <span className="text-slate-600 text-base font-bold">
             2022 — Present
           </span>

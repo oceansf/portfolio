@@ -6,7 +6,7 @@ import Projects from "./Projects";
 export default function RightPanel() {
   return (
     <div className="scroll-smooth scroll-pt-6 bg-[#0e0d12] flex-1 overflow-auto h-dvh px-4 sm:px-8 md:px-16 lg:px-52">
-      <div className="lg:hidden text-center">
+      <header className="lg:hidden text-center">
         <h1 className="text-slate-300 text-2xl font-semibold leading-snug tracking-tighter pt-6">
           Ocean Fuaga
         </h1>
@@ -14,13 +14,13 @@ export default function RightPanel() {
           Full-stack Developer
         </h3>
         <h3 className="text-slate-400 text-xl">Austin, TX</h3>
-      </div>
-      <img
-        className="rounded-full"
-        src={heroImg}
-        alt="ocean view from tunnel"
-      />
-      <main>
+      </header>
+      <main className="w-full lg:w-3/5">
+        <img
+          className="rounded-full"
+          src={heroImg}
+          alt="ocean view from tunnel"
+        />
         <About />
         <Experience />
         <Projects />
