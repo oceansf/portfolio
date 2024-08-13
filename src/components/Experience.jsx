@@ -1,101 +1,25 @@
-export default function About() {
+import { useState } from "react";
+import ExpItem from "./ExpItem";
+import { expItemsArr } from "../expItemsArr";
+
+export default function Experience() {
+  const [items] = useState(expItemsArr);
+
   return (
     <div className="mt-20" id="section2">
       <h1 className="text-slate-300 font-medium text-2xl leading-loose">
         Experience
       </h1>
+      <br />
       <ul className="text-slate-400">
-        <li className="mb-10">
-          <span className="text-slate-600 text-base font-bold">
-            2021 — 2022
-          </span>
-          <div className="">
-            <h2 className="text-lg font-medium leading-relaxed">
-              Full-stack Developer | Votive Health
-            </h2>
-            <p>
-              Contracted to build a minimum viable product for a palliative care
-              startup. Built out an entire web application using React on the
-              front-end and AWS for the back-end. Features included: user
-              management with user roles, file storage, and ArcGIS maps to
-              display the geolocation of insurance providers in our network.
-            </p>
-          </div>
-        </li>
-        <h2 className="text-slate-300 font-medium text-xl leading-loose">
-          Healthcare
-        </h2>
-        <li className="mb-10">
-          <span className="text-slate-600 text-base font-bold">
-            2024 — Present
-          </span>
-          <div className="">
-            <h2 className="text-lg font-medium leading-relaxed">
-              Ophthalmology Technician | Austin Eye
-            </h2>
-            <p>
-              Contracted to build a minimum viable product for a palliative care
-              startup. Built out an entire web application using React on the
-              front-end and AWS for the back-end. Features included: user
-              management with user roles, file storage, and ArcGIS maps to
-              display the geolocation of insurance providers in our network.
-            </p>
-          </div>
-        </li>
-        <li className="mb-10">
-          <span className="text-slate-600 text-base font-bold">
-            2023 — 2024
-          </span>
-          <div className="">
-            <h2 className="text-lg font-medium leading-relaxed">
-              Advanced Clinical Associate | Legacy GoHealth
-            </h2>
-            <p>
-              Contracted to build a minimum viable product for a palliative care
-              startup. Built out an entire web application using React on the
-              front-end and AWS for the back-end. Features included: user
-              management with user roles, file storage, and ArcGIS maps to
-              display the geolocation of insurance providers in our network.
-            </p>
-          </div>
-        </li>
-        <li className="mb-10">
-          <span className="text-slate-600 text-base font-bold">
-            2022 — 2023
-          </span>
-          <div className="">
-            <h2 className="text-lg font-medium leading-relaxed">
-              Medical Scribe | ScribeAmerica
-            </h2>
-            <p>
-              Contracted to build a minimum viable product for a palliative care
-              startup. Built out an entire web application using React on the
-              front-end and AWS for the back-end. Features included: user
-              management with user roles, file storage, and ArcGIS maps to
-              display the geolocation of insurance providers in our network.
-            </p>
-          </div>
-        </li>
-        <h2 className="text-slate-300 text-xl font-medium leading-loose">
-          Volunteer Work
-        </h2>
-        <li className="mb-10">
-          <span className="text-slate-600 text-base font-bold">
-            2022 — Present
-          </span>
-          <div className="">
-            <h2 className="text-lg font-medium leading-relaxed">
-              Social Media Manager | NAMI Multnomah
-            </h2>
-            <p>
-              Managed social media accounts and for a national nonprofit
-              organization centered around mental health awareness. Content
-              included invitations for live group therapy sessions and
-              fundraiser events as well as educational material pertaining to
-              maintaining mental health hygiene.
-            </p>
-          </div>
-        </li>
+        {items.map((item) => (
+          <ExpItem
+            key={item.id}
+            years={item.years}
+            title={item.title}
+            content={item.content}
+          />
+        ))}
       </ul>
     </div>
   );
