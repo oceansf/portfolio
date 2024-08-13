@@ -5,17 +5,13 @@ import Projects from "./Projects";
 
 export default function RightPanel() {
   return (
-    <div className="scroll-smooth scroll-pt-6 bg-[#0e0d12] flex-1 overflow-auto h-dvh px-4 lg:px-32">
-      <header className="lg:hidden text-center">
-        <h1 className="text-slate-300 text-2xl font-semibold leading-snug tracking-tighter pt-6">
+    <div className="scroll-smooth scroll-pt-6 bg-[#0e0d12] flex-1 flex-col justify-center overflow-auto h-dvh">
+      <header className="bg-[#0e0d12] lg:hidden sticky top-0 text-center py-4 backdrop-filter backdrop-blur-lg bg-opacity-30 border-b border-gray-700/50">
+        <h1 className="text-slate-300 text-xl font-semibold leading-snug tracking-tighter">
           Ocean Fuaga
         </h1>
-        <h3 className="text-slate-400 text-xl leading-snug">
-          Full-stack Developer
-        </h3>
-        <h3 className="text-slate-400 text-xl">Austin, TX</h3>
       </header>
-      <main className="w-full lg:w-3/5">
+      <main className="w-full px-4 lg:px-14 lg:w-4/5">
         <img
           className="rounded-full"
           src={heroImg}

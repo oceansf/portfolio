@@ -1,16 +1,16 @@
 export default function About() {
   return (
     <div className="mt-20" id="section2">
-      <h1 className="text-slate-300 font-medium text-5xl leading-loose">
+      <h1 className="text-slate-300 font-medium text-2xl leading-loose">
         Experience
       </h1>
       <ul className="text-slate-400">
         <li className="mb-10">
-          <span className="text-slate-600 text-base font-bold text-right">
+          <span className="text-slate-600 text-base font-bold">
             2021 — 2022
           </span>
           <div className="">
-            <h2 className="text-2xl leading-relaxed">
+            <h2 className="text-lg font-medium leading-relaxed">
               Full-stack Developer | Votive Health
             </h2>
             <p>
@@ -22,7 +22,7 @@ export default function About() {
             </p>
           </div>
         </li>
-        <h2 className="text-slate-300 font-medium text-3xl leading-loose">
+        <h2 className="text-slate-300 font-medium text-xl leading-loose">
           Healthcare
         </h2>
         <li className="mb-10">
@@ -30,7 +30,7 @@ export default function About() {
             2024 — Present
           </span>
           <div className="">
-            <h2 className="text-2xl  leading-relaxed">
+            <h2 className="text-lg font-medium leading-relaxed">
               Ophthalmology Technician | Austin Eye
             </h2>
             <p>
@@ -47,7 +47,7 @@ export default function About() {
             2023 — 2024
           </span>
           <div className="">
-            <h2 className="text-2xl  leading-relaxed">
+            <h2 className="text-lg font-medium leading-relaxed">
               Advanced Clinical Associate | Legacy GoHealth
             </h2>
             <p>
@@ -64,7 +64,7 @@ export default function About() {
             2022 — 2023
           </span>
           <div className="">
-            <h2 className="text-2xl  leading-relaxed">
+            <h2 className="text-lg font-medium leading-relaxed">
               Medical Scribe | ScribeAmerica
             </h2>
             <p>
@@ -76,7 +76,7 @@ export default function About() {
             </p>
           </div>
         </li>
-        <h2 className="text-slate-300 font-medium text-3xl leading-loose">
+        <h2 className="text-slate-300 text-xl font-medium leading-loose">
           Volunteer Work
         </h2>
         <li className="mb-10">
@@ -84,7 +84,7 @@ export default function About() {
             2022 — Present
           </span>
           <div className="">
-            <h2 className="text-2xl  leading-relaxed">
+            <h2 className="text-lg font-medium leading-relaxed">
               Social Media Manager | NAMI Multnomah
             </h2>
             <p>
