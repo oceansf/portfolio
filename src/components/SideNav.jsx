@@ -1,7 +1,7 @@
 export default function LeftPanel() {
   return (
     // Hide component when on mobile screens
-    <div className="bg-[#0e0d12] flex-none flex-col w-1/3 items-end justify-center hidden lg:flex">
+    <div className="hidden md:flex fixed top-0 left-0 h-screen w-[600px] justify-end items-center z-50">
       <div>
         <h1 className="text-slate-300 text-5xl font-semibold leading-snug tracking-tighter">
           Ocean Fuaga
