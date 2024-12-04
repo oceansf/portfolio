@@ -14,7 +14,7 @@ function App() {
       <div className="mx-auto">
         <div className="flex">
           <SideNav />
-          <main className="px-4 mx-auto flex-2 scroll-smooth scroll-pt-6 bg-[#0e0d12] flex-col justify-center md:pl-10 md:pr-80">
+          <main className="px-4 mx-auto flex-2 scroll-smooth scroll-pt-6 bg-[#0e0d12] flex-col justify-center md:pl-10 md:pr-96">
             <img
               className="rounded-full mx-auto w-[700px]"
               src={heroImg}
