@@ -11,18 +11,22 @@ function App() {
   return (
     <div className="bg-[#0e0d12]">
       <MobileHeader />
-      <SideNav />
-      <main className="md:w-1/2 mx-auto scroll-smooth scroll-pt-6 bg-[#0e0d12] flex-col justify-center px-4 md:px-14">
-        <img
-          className="rounded-full mx-auto w-[700px]"
-          src={heroImg}
-          alt="ocean view from tunnel"
-        />
-        <About />
-        <Experience />
-        <Projects />
-        <Footer />
-      </main>
+      <div className="mx-auto">
+        <div className="flex">
+          <SideNav />
+          <main className="px-4 mx-auto flex-2 scroll-smooth scroll-pt-6 bg-[#0e0d12] flex-col justify-center md:pl-10 md:pr-80">
+            <img
+              className="rounded-full mx-auto w-[700px]"
+              src={heroImg}
+              alt="ocean view from tunnel"
+            />
+            <About />
+            <Experience />
+            <Projects />
+            <Footer />
+          </main>
+        </div>
+      </div>
     </div>
   );
 }
