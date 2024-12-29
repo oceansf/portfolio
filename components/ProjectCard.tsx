@@ -8,7 +8,7 @@ type ProjectCardProps = {
 
 export default function ProjectCard({imgSrc, projectTitle, projectDesc}: ProjectCardProps ) {
   return (
-    <div className="dark:hover:shadow-inner sm:border dark:border-none dark:hover:shadow-white/5 hover:shadow-lg hover:cursor-pointer flex flex-col mb-6 sm:p-3 items-center rounded-2xl transition md:flex-row md:max-w-xl dark:hover:bg-slate-800">
+    <div className="dark:hover:shadow-inner sm:border dark:border-none dark:hover:shadow-white/5 hover:shadow-lg hover:cursor-pointer flex flex-col mb-6 sm:p-3 items-center sm:rounded-2xl transition md:flex-row md:max-w-xl dark:hover:bg-white/5">
       <div className="relative w-full aspect-video">
         <Image
           className="rounded-xl"

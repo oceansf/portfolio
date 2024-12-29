@@ -1,14 +1,16 @@
+import SendButton from './SendButton';
+
 export default function TitleCard() {
   return (
     <div className="mb-24">
-      <header className="text-6xl font-bold tracking-tight text-slate-900 dark:text-slate-300">
+      <header className="text-5xl font-bold tracking-tight text-slate-900 dark:text-slate-300">
         Ocean Fuaga
       </header>
-      <h2 className="text-2xl font-semibold text-slate-500">
+      <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-300">
         Frontend Developer
       </h2>
-      <h3 className="text-xl font-medium text-slate-500">Austin, TX</h3>
-      <div className="flex space-x-3 mt-3 text-slate-500">
+      <h3 className="text-xl font-semibold text-slate-500">Austin, TX</h3>
+      <div className="flex space-x-3 mt-2 text-slate-500">
         {/* <!-- Linkedin --> */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -29,10 +31,7 @@ export default function TitleCard() {
         </svg>
       </div>
       {/* Contact button */}
-      <button className="flex gap-2 py-3 px-5 bg-blue-500 hover:bg-blue-400 shadow-lg shadow-blue-500/50 dark:shadow-blue-600/50 dark:hover:shadow-blue-500/50 dark:bg-blue-600 text-slate-50 rounded-lg font-semibold dark:hover:bg-blue-500 transition mt-12">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-send-horizontal"><path d="M3.714 3.048a.498.498 0 0 0-.683.627l2.843 7.627a2 2 0 0 1 0 1.396l-2.842 7.627a.498.498 0 0 0 .682.627l18-8.5a.5.5 0 0 0 0-.904z"/><path d="M6 12h16"/></svg>
-        Email me
-      </button>
+      <SendButton/>
     </div>
   );
 }

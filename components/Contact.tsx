@@ -3,7 +3,7 @@ import ContentParagraph from "./ContentParagraph";
 export default function Contact() {
   return (
     <section className="my-16">
-      <div className="py-8 sm:px-8 mx-auto max-w-screen-md sm:border sm:rounded-xl sm:shadow-lg">
+      <div className="py-8 sm:px-8 mx-auto max-w-screen-md dark:border-white/5 sm:border sm:rounded-xl sm:shadow-lg">
         <ContentParagraph
           topic="Contact"
           content="Let's get in touch! Feel free to shoot me an email and I will try to get back to you as soon as possible."
