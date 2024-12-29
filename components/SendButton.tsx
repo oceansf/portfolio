@@ -23,7 +23,7 @@ export default function SendButton() {
             </svg>
           </div>
         </div>
-        <span className="drop-shadow">Let's connect</span>
+        <span className="drop-shadow">Let&apos;s connect</span>
       </button>
     </a>
   );
