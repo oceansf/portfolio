@@ -5,7 +5,7 @@ export default function About() {
     <section>
       <SectionHeader topic="About"/>
       <p className="whitespace-pre-wrap">
-        I'm a{" "}
+        I&apos;m a{" "}
         <span className="font-semibold dark:text-slate-300">
           frontend developer
         </span>{" "}
@@ -16,7 +16,7 @@ export default function About() {
         every project I undertake.
         <br />
         <br />
-        As a developer, I'm passionate about building comprehensive web
+        As a developer, I&apos;m passionate about building comprehensive web
         applications that seamlessly blend functionality with user experience. I
         specialize in helping clients optimize their digital presence, focusing
         on both technical excellence and measurable outcomes. By combining my
