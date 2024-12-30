@@ -1,21 +1,23 @@
 import Contact from "@/components/Contact";
-import ContentParagraph from "@/components/ContentParagraph";
+import About from "@/components/About";
 import ExperienceList from "@/components/ExperienceList";
 import Projects from "@/components/Projects";
 import TitleCard from "@/components/TitleCard";
 import Footer from "@/components/Footer";
+import { JetBrains_Mono } from "next/font/google";
+
+const jetbrains_mono = JetBrains_Mono({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-jetbrains-mono",
+});
 
 export default function page() {
   return (
     <div className="px-6">
-      <main className="max-w-xl pt-20 lg:pt-32 mx-auto">
+      <main className={`max-w-xl pt-20 lg:pt-32 mx-auto ${jetbrains_mono.variable}`}>
         <TitleCard />
-        <ContentParagraph
-          topic="About"
-          content={`Hello, my name is Ocean Fuaga and I'm a frontend developer from Portland, OR. I have an extensive history of designing UIs and integrating backend logic into client-facing web applications.
-
-During spring of 2024, I moved to Austin, TX and have loved my new home ever since. I welcome any opportunities the city has to offer and I hope to make many new connections along the way!`}
-        />
+        <About />
         <ExperienceList />
         <Projects />
         <Contact />

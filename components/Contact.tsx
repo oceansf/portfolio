@@ -1,4 +1,4 @@
-import ContentParagraph from "./ContentParagraph";
+import ContentParagraph from "./SectionHeader";
 
 export default function Contact() {
   return (

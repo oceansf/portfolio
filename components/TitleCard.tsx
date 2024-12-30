@@ -3,13 +3,13 @@ import SendButton from './SendButton';
 export default function TitleCard() {
   return (
     <div className="mb-24">
-      <header className="text-5xl font-bold tracking-tight text-slate-900 dark:text-slate-300">
-        Ocean Fuaga
+      <header className="text-5xl font-mono font-bold tracking-tight text-slate-900 dark:text-slate-300">
+        OCEAN FUAGA
       </header>
-      <h2 className="text-xl font-semibold text-slate-900 dark:text-slate-300">
+      <h2 className="font-mono text-xl font-semibold text-slate-900 dark:text-slate-300">
         Frontend Developer
       </h2>
-      <h3 className="text-xl font-semibold text-slate-500">Austin, TX</h3>
+      <h3 className="font-mono text-xl font-semibold text-slate-500">Austin, TX</h3>
       <div className="flex space-x-3 mt-2 text-slate-500">
         {/* <!-- Linkedin --> */}
         <svg

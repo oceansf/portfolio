@@ -1,4 +1,4 @@
-import ContentParagraph from "./ContentParagraph";
+import ContentParagraph from "./SectionHeader";
 import ProjectCard from "./ProjectCard";
 
 export default function Projects() {

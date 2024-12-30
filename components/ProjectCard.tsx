@@ -14,7 +14,7 @@ export default function ProjectCard({imgSrc, projectTitle, projectDesc}: Project
           className="rounded-xl"
           src={imgSrc}
           width={400}
-          height={400}
+          height={200}
           alt="Placeholder image"
         />
       </div>
