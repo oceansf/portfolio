@@ -5,49 +5,37 @@ const experienceArr = [
     title: "Freelance Developer",
     timeSpan: "2023 — Present",
     employer: "",
-    text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            laborum similique possimus nihil vero molestias sint velit, esse
-            fugit eveniet consequuntur saepe enim illo nam!`,
+    text: `Designed and developed websites for small businesses, focusing on increasing traffic and conversion rates while implementing custom web features using PHP and WordPress.`,
   },
   {
     title: "Fullstack Developer",
     timeSpan: "2021 — 2022",
     employer: "Votive Health",
-    text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            laborum similique possimus nihil vero molestias sint velit, esse
-            fugit eveniet consequuntur saepe enim illo nam!`,
+    text: `Built a business-facing dashboard for a palliative care startup using React.js and AWS. I integrated client-requested features through agile development, learned new technologies, designed user interfaces, and implemented a NoSQL database solution using DynamoDB and GraphQL API.`,
   },
   {
     title: "Volunteer Social Media Manager",
     timeSpan: "2022 — Present",
     employer: "NAMI Multnomah",
-    text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            laborum similique possimus nihil vero molestias sint velit, esse
-            fugit eveniet consequuntur saepe enim illo nam!`,
+    text: `Designed and published social media content for a national mental health nonprofit, creating materials for live group therapy sessions, fundraiser events, and mental health education using Canva and Buffer.`,
   },
   {
     title: "Ophthalmology Technician",
     timeSpan: "March — Aug 2024",
     employer: "Austin Eye",
-    text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            laborum similique possimus nihil vero molestias sint velit, esse
-            fugit eveniet consequuntur saepe enim illo nam!`,
+    text: `Worked as an Ophthalmic Technician, rooming patients, performing diagnostic measurements, educating patients about cataract surgery and premium lens options, and transcribing patient documentation alongside providers.`,
   },
   {
     title: "Advanced Clinical Associate",
     timeSpan: "2023 — 2024",
     employer: "Legacy GoHealth",
-    text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            laborum similique possimus nihil vero molestias sint velit, esse
-            fugit eveniet consequuntur saepe enim illo nam!`,
+    text: `Served as an Advanced Clinical Associate in an urgent care setting, performing duties such as point-of-care lab testing, patient rooming, documentation, medication administration, and minor procedures including suture removals, EKGs, and vaccine administration.`,
   },
   {
     title: "Medical Scribe",
     timeSpan: "2022 — 2023",
     employer: "ScribeAmerica",
-    text: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-            laborum similique possimus nihil vero molestias sint velit, esse
-            fugit eveniet consequuntur saepe enim illo nam!`,
+    text: `Managed clinical documentation for two Kaiser Permanente ophthalmologists, which involved pre-charting medical notes, documenting patient visits, interpreting OCT images and fundus photography, coordinating clinic flow, and training new scribes.`,
   },
 ];
 
