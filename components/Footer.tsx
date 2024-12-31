@@ -6,7 +6,7 @@ export default function Footer() {
           Made with Tailwind CSS and Next.js
         </p>
         <p className=" text-center text-sm/6 text-gray-600 md:order-1 mt-4">
-          &copy; 2024 Ocean Fuaga. All rights reserved.
+          &copy; 2025 Ocean Fuaga. All rights reserved.
         </p>
       </div>
     </footer>
