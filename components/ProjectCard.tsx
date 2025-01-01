@@ -19,7 +19,7 @@ export default function ProjectCard({imgSrc, projectTitle, projectDesc}: Project
         />
       </div>
       <div className="flex flex-col justify-between sm:p-4 leading-normal">
-        <h5 className="mb-2 text-2xl mt-4 sm:mt-0 font-bold tracking-tight text-gray-900 dark:text-slate-300">
+        <h5 className="mb-2 text-xl mt-4 sm:mt-0 font-bold tracking-tight text-gray-900 dark:text-slate-300">
           {projectTitle}
         </h5>
         <p className="mb-3 font-normal text-gray-700 dark:text-slate-400">

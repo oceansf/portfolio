@@ -1,38 +1,15 @@
-"use client"
+"use client";
 
-import { useState } from "react";
+import { FormEvent, useState } from "react";
 import ContentParagraph from "./SectionHeader";
 
 export default function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [status, setStatus] = useState("");
+  const [status] = useState("");
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    setStatus("sending");
-
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ email, message }),
-      });
-
-      await res.json();
-
-      if (res.ok) {
-        setStatus("success");
-        setEmail("");
-        setMessage("");
-      } else {
-        setStatus("error");
-      }
-    } catch {
-      setStatus("error");
-    }
   };
 
   return (

@@ -3,14 +3,14 @@ import SendButton from './SendButton';
 export default function TitleCard() {
   return (
     <div className="mb-24">
-      <header className="text-5xl font-mono font-bold tracking-tighter text-slate-900 dark:text-slate-300 space-x-0">
+      <header className="text-3xl sm:text-5xl font-mono font-bold tracking-tighter text-slate-900 dark:text-slate-300 space-x-0">
       <span className="text-blue-500 dark:text-blue-400">{`> `}</span>Ocean Fuaga<span className='animate-blink'>_</span>
       </header>
-      <h2 className="font-mono text-xl font-semibold text-slate-900 dark:text-slate-300">
+      <h2 className="sm:mt-4 font-mono text-xl font-semibold text-slate-900 dark:text-slate-300">
         Frontend Developer
       </h2>
       <h3 className="font-mono text-xl font-semibold text-slate-500">Austin, TX</h3>
-      <div className="flex space-x-3 mt-2 text-slate-500">
+      <div className="flex space-x-3 mt-1 text-slate-500">
         {/* <!-- Linkedin --> */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
