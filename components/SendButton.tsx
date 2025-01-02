@@ -6,7 +6,7 @@ export default function SendButton() {
       rel="noopener noreferrer"
       target="_blank"
     >
-      <button className="sendButton mt-10 font-semibold bg-blue-500 dark:bg-blue-600 hover:bg-blue-400 dark:hover:bg-blue-500 text-slate-50 py-2.5 px-5 flex items-center border-none rounded-lg overflow-hidden transition-all duration-200 cursor-pointer shadow-lg shadow-blue-500/50 dark:shadow-blue-600/50 text-slate-50">
+      <button className="sendButton mt-10 font-semibold bg-blue-500 dark:bg-blue-600 hover:bg-blue-400 dark:hover:bg-blue-500 py-2.5 px-5 flex items-center border-none rounded-lg overflow-hidden transition-all duration-200 cursor-pointer shadow-lg shadow-blue-500/50  dark:shadow-blue-600/50 dark:hover:shadow-blue-500/50 text-slate-50">
         <div className="svg-wrapper-1">
           <div className="svg-wrapper">
             <svg

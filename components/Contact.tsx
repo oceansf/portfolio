@@ -31,7 +31,7 @@ const Contact: FC = () => {
               htmlFor="name"
               className="block mb-2 text-sm font-medium text-gray-900 dark:text-slate-400"
             >
-              Full Name
+              Your Name
             </label>
             <input
               type="text"
