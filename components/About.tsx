@@ -2,7 +2,7 @@ import SectionHeader from "./SectionHeader";
 
 export default function About() {
   return (
-    <section>
+    <section className="px-4">
       <SectionHeader topic="About" />
       <p className="whitespace-pre-wrap">
         I&apos;m a{" "}

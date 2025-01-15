@@ -41,7 +41,7 @@ const experienceArr = [
 
 export default function ExperienceList() {
   return (
-    <section className="mt-16">
+    <section className="mt-16 px-4">
       <ContentParagraph topic="Experience" content="" />
       <ul className=" mt-6">
         {experienceArr.map((exp, index) => (

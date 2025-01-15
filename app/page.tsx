@@ -14,7 +14,7 @@ const jetbrains_mono = JetBrains_Mono({
 
 export default function page() {
   return (
-    <div className="px-6">
+    <div>
       <main className={`max-w-xl pt-20 lg:pt-32 mx-auto ${jetbrains_mono.variable}`}>
         <TitleCard />
         <About />

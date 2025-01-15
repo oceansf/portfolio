@@ -2,7 +2,7 @@ import SendButton from "./SendButton";
 
 export default function TitleCard() {
   return (
-    <div className="mb-24">
+    <div className="mb-24 px-4">
       <header className="text-3xl sm:text-5xl font-mono font-bold tracking-tighter text-slate-900 dark:text-slate-300 space-x-0">
         <span className="text-blue-500 dark:text-blue-400">{`> `}</span>Ocean
         Fuaga<span className="animate-blink">_</span>
