@@ -18,12 +18,12 @@ export default function Projects() {
           projectLink="https://groovehunt.com"
           hasRepo
         />
-        <ProjectCard
+        {/* <ProjectCard
           imgSrc="/nwvirtualtherapy.png"
           projectTitle="NW Virtual Therapy"
           projectDesc="Client website for a private practice. Made with GeneratePress in WordPress."
           projectLink="https://nwvirtualtherapy.com"
-        />
+        /> */}
         <h1 className="text-slate-400 my-20 dark:text-slate-500 text-2xl font-mono text-center">{`// MORE COMING SOON..`}</h1>
       </div>
     </section>
